@@ -9,7 +9,8 @@
 #    (default + 16 escapes), followed by a test use of that color
 #    on all nine background colors (default + 8 escapes).
 
-text="Hello 😁"; # Some test text
+# text="Hello 😁"; # Some test text
+text="abc"; # Some test text
 
 echo -e "\n                40m   41m   42m   43m   44m   45m   46m   47m";
 

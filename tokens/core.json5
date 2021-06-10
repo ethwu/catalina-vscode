@@ -75,6 +75,60 @@
       },
     },
 
+    // supplemental colors
+    "uc": {
+      "blue": {
+        "uc": { "value": "#1295D8" },
+        "value": "#005581",
+        "light": { "value": "#72CDF4" },
+      },
+      "gold": {
+        "uc": { "value": "#FFB511" },
+        "value": "#FFD200",
+        "light": { "value": "#FFE552" },
+        "metallic": { "value": "#B4975A" },
+      },
+      "orange": {
+        "value": "#FF6E1B",
+        "light": { "value": "#FF8F28" },
+      },
+      "pink": {
+        "value": "#E44C9A",
+        "light": { "value": "#FEB2E0" },
+      },
+      "teal": {
+        "value": "#00778B",
+        "light": { "value": "#00A3AD" },
+      },
+      "gray": {
+        "uc": { "value": "#7C7E7F" },
+        "8": { "value": "#8F8884" },
+        "3": { "value": "#BEB6AF" },
+        "1": { "value": "#7C7E7F" },
+      },
+    },
+
+    // extra supplemental colors
+    "b": {
+      "blue": { "value": "#003262" },
+      "founders-rock": { "value": "#3B7EA1" },
+      "gold": { "value": "#FDB515" },
+      "medalist": { "value": "#C4820E" },
+
+      "wellman-tile": { "value": "#D9661F" },
+      "rose-garden": { "value": "#EE1F60" },
+      "golden-gate": { "value": "#ED4E33" },
+      "south-hall": { "value": "#6C3302" },
+      "bay-fog": { "value": "#DDD5C7" },
+      "lawrence": { "value": "#00B0DA" },
+      "lap-lane": { "value": "#00A598" },
+      "pacific": { "value": "#46535E" },
+      "sather-gate": { "value": "#B9D3B6" },
+      "ion": { "value": "#CFDD45" },
+      "soybean": { "value": "#859438" },
+      "stone-pine": { "value": "#584F29" },
+    },
+
     // nu disco
     "core": {
       "grey": {

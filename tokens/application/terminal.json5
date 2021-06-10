@@ -1,8 +1,8 @@
 {
   "terminal": {
     // To test these colors run `./scripts/colors` in the terminal
-    "ansiWhite": { "value": "{color.background.secondary.value}" },
-    "ansiBlack": { "value": "{color.font.secondary.value}" },
+    "ansiWhite": { "value": "{color.font.code.white.value}" },
+    "ansiBlack": { "value": "{color.font.code.black.value}" },
     "ansiBlue": { "value": "{color.font.code.7.value}" },
     "ansiCyan": { "value": "{color.font.code.6.value}" },
     "ansiGreen": { "value": "{color.font.code.5.value}" },
