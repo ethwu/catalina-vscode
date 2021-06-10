@@ -7,6 +7,7 @@
       "quaternary": { "value": "{color.white.value}" },
       "ghost": { "value": "{color.gray.light.value}" },
       "inverse": { "value": "{color.background.primary.value}" },
+      "dull": { "value": "{color.mist.value}" },
 
       "active": { "value": "{color.white.text}" },
       "success": { "value": "{color.white.text}" },
@@ -35,24 +36,24 @@
         "white": { "value": "{color.white.value}" },
 
         "1": { "value": "{color.coral.dark.value}" },       // red
-        "2": { "value": "{color.uc.teal.value}" },        // orange
-        "3": { "value": "{color.uc.gold.value}" },             // yellow
+        "2": { "value": "{color.uc.teal.value}" },          // orange
+        "3": { "value": "{color.gold.value}" },          // yellow
         "4": { "value": "{color.sea-green.value}" },        // lime
-        "5": { "value": "{color.b.ion.value}" },        // green
-        "6": { "value": "{color.uc.orange.value}" },          // cyan
+        "5": { "value": "{color.b.ion.value}" },            // green
+        "6": { "value": "{color.uc.orange.value}" },        // cyan
         "7": { "value": "{color.uc.blue.uc.value}" },       // blue
-        "8": { "value": "{color.b.golden-gate.value}" },          // purple
-        "9": { "value": "{color.uc.pink.value}" },       // magenta
+        "8": { "value": "{color.b.golden-gate.value}" },    // purple
+        "9": { "value": "{color.uc.pink.value}" },          // magenta
 
         "21": { "value": "{color.coral.value}" },           // bright red
-        "22": { "value": "{color.uc.teal.light.value}" }, // bright orange
-        "23": { "value": "{color.uc.gold.light.value}" },         // bright yellow
+        "22": { "value": "{color.uc.teal.light.value}" },   // bright orange
+        "23": { "value": "{color.uc.gold.light.value}" },   // bright yellow
         "24": { "value": "{color.b.lap-lane.value}" },      // bright lime
-        "25": { "value": "{color.b.sather-gate.value}" },           // bright green
-        "26": { "value": "{color.uc.orange.light.value}" },   // bright cyan
-        "27": { "value": "{color.uc.blue.light.value}" },      // bright blue
+        "25": { "value": "{color.b.sather-gate.value}" },   // bright green
+        "26": { "value": "{color.uc.orange.light.value}" }, // bright cyan
+        "27": { "value": "{color.uc.blue.light.value}" },   // bright blue
         "28": { "value": "{color.b.rose-garden.value}" },   // bright purple
-        "29": { "value": "{color.uc.pink.light.value}" },            // bright magenta
+        "29": { "value": "{color.uc.pink.light.value}" },   // bright magenta
       }
     }
   }

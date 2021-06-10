@@ -1,34 +1,37 @@
-// Things like `new`, import/export, and operators like conditionals or relational 
-// (less than, greater than, etc.). Does not include type words like 
+// Things like `new`, import/export, and operators like conditionals or relational
+// (less than, greater than, etc.). Does not include type words like
 // `async`, `var`, `let`, etc., those are in storage.
 {
   "syntax": {
     "keyword": {
       // Using '*' here will apply this to the `keyword` scope
-      "*": { "value": "{color.font.code.8.value}" },
+      "*": { "value": "{color.font.code.3.value}" },
       "control": {
-        "*": { "value": "{color.font.code.8.value}" },
+        "*": {
+          "value": "{color.font.code.3.value}",
+          "fontStyle": "bold",
+        },
         "conditional": {},
         "export": {},
         "import": {
-          "value": "{color.font.code.8.value}",
-          "fontStyle": "italic"
+          "value": "{color.font.code.3.value}",
+          "fontStyle": "bold italic"
         },
         "from": {
-          "value": "{color.font.code.8.value}",
-          "fontStyle": "italic"
+          "value": "{color.font.code.3.value}",
+          "fontStyle": "bold italic"
         },
         "flow": {
-          "value": "{color.font.code.8.value}"
+          "value": "{color.font.code.3.value}"
         }
       },
       "operator": {
-        "*": { "value": "{color.font.primary.value}" },
+        "*": { "value": "{color.font.dull.value}" },
         "arithmetic": {},
         "assignment": {},
         "bitwise": {},
         "logical": {
-          "value": "{color.font.primary.value}"
+          "value": "{color.font.dull.value}"
         },
         "word": {}
       },

@@ -7,13 +7,14 @@
       "quaternary": { "value": "{color.core.grey.100.value}66" },
       "ghost": { "value": "{color.core.grey.100.value}22" },
       "inverse": { "value": "{color.background.primary.value}" },
-      
+      "dull": { "value": "{color.sandstone.value}" },
+
       "active": { "value": "{color.core.pink.darker.value}" },
       "success": { "value": "{color.core.green.darker.value}" },
       "danger": { "value": "{color.core.red.darker.value}" },
       "warning": { "value": "{color.core.orange.darker.value}" },
       "info": { "value": "{color.core.teal.darker.value}" },
-      
+
       "link": {
         "primary": {
           "active": { "value": "{color.core.teal.darker.value}" },
@@ -24,8 +25,11 @@
           "inactive": { "value": "{color.core.pink.darker.value}CC" },
         }
       },
-      
+
       "code": {
+        "black": { "value": "{color.black.value}" },
+        "white": { "value": "{color.white.value}" },
+
         "1": { "value": "{color.core.red.dark.value}" },
         "2": { "value": "{color.core.orange.dark.value}" },
         "3": { "value": "{color.core.yellow.dark.value}" },
@@ -35,7 +39,7 @@
         "7": { "value": "{color.core.blue.dark.value}" },
         "8": { "value": "{color.core.purple.dark.value}" },
         "9": { "value": "{color.core.pink.dark.value}" },
-        
+
         "21": { "value": "{color.core.red.darker.value}" },
         "22": { "value": "{color.core.orange.darker.value}" },
         "23": { "value": "{color.core.yellow.darker.value}" },

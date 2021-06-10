@@ -13,7 +13,7 @@
       "danger": { "value": "{color.coral.value}" },
       "warning": { "value": "{color.uc.orange.value}" },
       "success": { "value": "{color.b.ion.value}" },
-      "info": { "value": "{color.b.lawrence.value}" },
+      "info": { "value": "{color.uc.blue.uc.value}" },
 
       "interactive": {
         "base": { "value": "{color.gold.value}" },
