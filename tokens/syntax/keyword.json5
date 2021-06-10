@@ -14,12 +14,10 @@
         "conditional": {},
         "export": {},
         "import": {
-          "value": "{color.font.code.3.value}",
-          "fontStyle": "bold italic"
+          "value": "{color.font.code.3.value}"
         },
         "from": {
-          "value": "{color.font.code.3.value}",
-          "fontStyle": "bold italic"
+          "value": "{color.font.code.3.value}"
         },
         "flow": {
           "value": "{color.font.code.3.value}"

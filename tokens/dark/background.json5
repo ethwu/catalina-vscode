@@ -8,7 +8,7 @@
 
       "drop": { "value": "{color.uc.orange.value}66" },
       "badge": { "value": "{color.gold.value}" },
-      "debug": { "value": "{color.uc.pink.value}" },
+      "debug": { "value": "{color.coral.value}" },
 
       "danger": { "value": "{color.coral.value}" },
       "warning": { "value": "{color.uc.orange.value}" },

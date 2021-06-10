@@ -1,10 +1,10 @@
 {
   // Text colors in the file explorer for git statuses
   "gitDecoration": {
-    "addedResourceForeground": { "value": "{color.font.success.value}" },
-    "modifiedResourceForeground": { "value": "{color.font.info.value}" },
-    "deletedResourceForeground": { "value": "{color.font.danger.value}" },
-    "untrackedResourceForeground": { "value": "{color.font.warning.value}" },
+    "addedResourceForeground": { "value": "{color.background.success.value}" },
+    "modifiedResourceForeground": { "value": "{color.background.info.value}" },
+    "deletedResourceForeground": { "value": "{color.background.danger.value}" },
+    "untrackedResourceForeground": { "value": "{color.background.warning.value}" },
     "ignoredResourceForeground": { "value": "{color.font.quaternary.value}" },
     "conflictingResourceForeground": { "value": "{color.font.active.value}" }
   }

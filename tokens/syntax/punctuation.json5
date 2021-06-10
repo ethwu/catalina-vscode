@@ -2,43 +2,46 @@
   "syntax": {
     "punctuation": {
       "accessor": {
-        value: "{color.font.primary.value}"
+        value: "{color.font.bright.value}"
       },
       "definition": {
         "array": {
-          "value": "{color.font.primary.value}"
+          "value": "{color.font.bright.value}"
         },
         "block": {
-          "value": "{color.font.primary.value}"
+          "value": "{color.font.bright.value}"
         },
         "dictionary": {
-          "value": "{color.font.primary.value}"
+          "value": "{color.font.bright.value}"
         },
         "heading": { "value": "{color.font.code.22.value}" },
-        "list": { "value": "{color.font.code.21.value}" },
+        "list": { "value": "{color.font.bright.value}" },
         "parameters": {
-          "value": "{color.font.primary.value}"
+          "value": "{color.font.bright.value}"
         },
         "quote": {},
         "string": {
-          "*": { "value": "{color.font.code.25.value}" },
+          "*": { "value": "{color.font.code.27.value}" },
           "begin": {},
           "end": {}
         },
         "tag": {
-          "*": { "value": "{color.font.primary.value}" }
+          "*": { "value": "{color.font.dull.value}" }
         },
-        "typeparameters": { "value": "{color.font.primary.value}" },
-        
+        "typeparameters": { "value": "{color.font.code.6.value}" },
+
         // ${} in string templates in JS
         "template-expression": {
-          "*": { "value": "{color.font.code.21.value}" },
+          "*": {
+            "value": "{color.font.code.21.value}",
+            "fontStyle": "",
+          },
           "begin": {},
           "end": {}
         },
         "variable": {}
       },
-      
+
       "section": {
         "*": { "value": "{color.font.secondary.value}" },
         "interpolation": {
@@ -47,7 +50,7 @@
         }
       },
       "separator": {
-        "*": { "value": "{color.font.primary.value}" },
+        "*": { "value": "{color.font.bright.value}" },
         "array": { /* commas between array items */ },
         "continuation": {},
         "dictionary": { /* commas between object/dictionary attributes */ }

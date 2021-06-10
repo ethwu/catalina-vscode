@@ -7,7 +7,8 @@
       "quaternary": { "value": "{color.core.grey.100.value}66" },
       "ghost": { "value": "{color.core.grey.100.value}22" },
       "inverse": { "value": "{color.background.primary.value}" },
-      "dull": { "value": "{color.sandstone.value}" },
+      "dull": { "value": "{color.mist.value}" },
+      "bright": { "value": "{color.sandstone.value}" },
 
       "active": { "value": "{color.core.pink.darker.value}" },
       "success": { "value": "{color.core.green.darker.value}" },

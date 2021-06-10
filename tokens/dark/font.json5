@@ -1,13 +1,14 @@
 {
   "color": {
     "font": {
-      "primary": { "value": "{color.navy.dark.text}" },
-      "secondary": { "value": "{color.navy.text}" },
-      "tertiary": { "value": "{color.uc.gray.uc.value}" },
-      "quaternary": { "value": "{color.white.value}" },
-      "ghost": { "value": "{color.gray.light.value}" },
+      "primary": { "value": "{color.uc.gray.1.value}" },
+      "secondary": { "value": "{color.gray.value}" },
+      "tertiary": { "value": "{color.uc.gray.3.value}" },
+      "quaternary": { "value": "{color.uc.gray.8.value}" },
+      "ghost": { "value": "{color.uc.gray.uc.value}" },
       "inverse": { "value": "{color.background.primary.value}" },
       "dull": { "value": "{color.mist.value}" },
+      "bright": { "value": "{color.clay.value}" },
 
       "active": { "value": "{color.white.text}" },
       "success": { "value": "{color.white.text}" },
