@@ -10,6 +10,8 @@
       "dull": { "value": "{color.mist.value}" },
       "bright": { "value": "{color.clay.value}" },
 
+      "badge": { "value": "{color.gold.text}" },
+
       "active": { "value": "{color.white.text}" },
       "success": { "value": "{color.white.text}" },
       "danger": { "value": "{color.coral.text}" },

@@ -2,24 +2,29 @@
 {
   "syntax": {
     "constant": {
+      "*": {
+        "value": "{color.font.code.21.value}",
+        "fontStyle": "italic",
+      },
+
       "character": {
         // escape characters like /
-        "escape": {}
+        "escape": { "value": "{color.font.code.24.value}", "fontStyle": "bold" },
       },
-      
+
       // Constants built into the the language like booleans
       "language": {
         // Dart does not seem to have great syntax grammar definitions
         "dart": { "value": "{color.font.code.26.value}" },
         "boolean": {
-          "false": { "value": "{color.font.code.21.value}" },
-          "true": { "value": "{color.font.code.25.value}" },
+          "false": { "value": "{color.font.code.29.value}" },
+          "true": { "value": "{color.font.code.29.value}" },
         },
         // * import in JS
         "import-export-all": {
           "value": "{color.font.code.27.value}"
         },
-        "null": { "value": "{color.font.code.21.value}" },
+        "null": { "value": "{color.font.code.29.value}" },
         "symbol": { "value": "{color.font.code.29.value}" }
       },
       "other": {

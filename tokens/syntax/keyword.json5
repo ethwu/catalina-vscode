@@ -24,7 +24,10 @@
         }
       },
       "operator": {
-        "*": { "value": "{color.font.dull.value}" },
+        "*": {
+          "value": "{color.font.dull.value}",
+          "fontStyle": "",
+        },
         "arithmetic": {},
         "assignment": {},
         "bitwise": {},

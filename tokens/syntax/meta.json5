@@ -1,5 +1,5 @@
-// A lot of elements have a meta scope, but it takes a lower priority than more 
-// specific scopes. For example, every element from the start of a class definition 
+// A lot of elements have a meta scope, but it takes a lower priority than more
+// specific scopes. For example, every element from the start of a class definition
 // in Javascript to the end curly brace has a scope of `meta.class`.
 // The elements where this has higher specificity are things like braces
 // (curly, square, round)
@@ -45,7 +45,7 @@
         "attributes": { "value": "{color.font.code.29.value}" }
       },
       "type": {
-        "parameters": { "value": "{color.font.code.23.value}" }
+        "parameters": { "value": "{color.font.code.2.value}" }
       },
       "var": {
         "expr": {

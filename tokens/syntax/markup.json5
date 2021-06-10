@@ -1,10 +1,10 @@
-// Things in markup/markdown languages. Applies to markdown files as well as 
+// Things in markup/markdown languages. Applies to markdown files as well as
 // documentation comments if you include markdown syntax.
 {
   "syntax": {
     "markup": {
-      "bold": { 
-        "value": "{color.font.code.28.value}",
+      "bold": {
+        "value": "{color.font.code.29.value}",
         "fontStyle": "bold"
       },
       "italic": {
@@ -12,14 +12,14 @@
         "fontStyle": "italic"
       },
       "fenced_code": {
-        "value": "{color.font.primary.value}",
+        "value": "{color.font.dull.value}",
       },
-      "heading": { 
-        "value": "{color.font.primary.value}",
+      "heading": {
+        "value": "{color.font.code.3.value}",
         "fontStyle": "bold"
       },
       "quote": {
-        "value": "{color.font.secondary.value}",
+        "value": "{color.font.tertiary.value}",
         "fontStyle": "italic"
       },
       "underline": {

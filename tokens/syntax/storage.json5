@@ -7,7 +7,7 @@
       },
       "modifier": {},
       "type": {
-        "function": {}
+        "function": { "value": "{color.font.code.3.value}" }
       }
     },
   }
