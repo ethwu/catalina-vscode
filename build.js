@@ -33,11 +33,11 @@ StyleDictionary.registerFormat({
   formatter: (dictionary, config) => {
     // VSCode theme JSON files have this structure
     const theme = {
-      "name": `Nu Disco ${config.themeType}`,
+      "name": `Splendid ${config.themeType}`,
       "type": config.themeType,
       "colors": {},
     }
-    
+
     // Filter out the design tokens we don't want to add to the
     // 'colors' object. This includes core colors defined in tokens/core.json5
     // and syntax tokens defined in tokens/syntax
@@ -48,7 +48,7 @@ StyleDictionary.registerFormat({
       // transform defined above
       theme.colors[token.name] = token.value;
     });
-    
+
     // Map the syntax styles
     theme.tokenColors = dictionary.allProperties.filter((token) => {
       return token.path[0] === 'syntax'
@@ -59,7 +59,7 @@ StyleDictionary.registerFormat({
         fontStyle: token.fontStyle,
       }
     }));
-    
+
     // Style Dictionary formats expect a string that will be then written to a file
     return JSON.stringify(theme, null, 2);
   }
@@ -71,7 +71,7 @@ StyleDictionary.registerFormat({
 [`dark`, `light`].forEach((themeType) => {
   StyleDictionary.extend({
     // Style Dictionary will find all files defined in source and do a deep merge
-    // on them. 
+    // on them.
     source: [
       // This is the core color palette
       `tokens/core.json5`,
@@ -93,7 +93,7 @@ StyleDictionary.registerFormat({
         files: [{
           // The path the file will be created at. Make sure this matches
           // the file paths defined in the package.json
-          destination: `nu-disco-${themeType}.color-theme.json`,
+          destination: `sb-${themeType}.color-theme.json`,
           // The name of the custom format defined above
           format: `vsCodeTheme`
         }]

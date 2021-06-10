@@ -1,16 +1,16 @@
 {
-	"name": "nu-disco",
-	"displayName": "Nu Disco Theme",
-	"description": "A VS Code theme that boogies.",
-	"publisher": "dbanksdesign",
+	"name": "sb",
+	"displayName": "Splendid Theme",
+	"description": "Theme for Unlimited, Coastal, Splendid Beaches.",
+	"publisher": "ethwu",
 	"license": "MIT",
-	"version": "1.0.6",
+	"version": "0.0.1",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/dbanksdesign/nu-disco-vscode-theme"
+		"url": "https://github.com/ethwu/ucsb-vscode-theme"
 	},
 	"bugs": {
-		"url": "https://github.com/dbanksdesign/nu-disco-vscode-theme/issues"
+		"url": "https://github.com/ethwu/ucsb-vscode-theme/issues"
 	},
 	"engines": {
 		"vscode": "^1.38.0"
@@ -23,7 +23,7 @@
 		"publish": "vsce publish"
 	},
 	"galleryBanner": {
-		"color": "#0C001F",
+		"color": "#003660",
 		"theme": "dark"
 	},
 	"icon": "images/icon.png",
@@ -31,7 +31,6 @@
 		"Themes"
 	],
 	"keywords": [
-		"Nu Disco",
 		"Dark Theme",
 		"Light Theme",
 		"Style Dictionary"
@@ -39,14 +38,14 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Nu Disco Dark",
+				"label": "Splendid Dark",
 				"uiTheme": "vs-dark",
-				"path": "./build/nu-disco-dark.color-theme.json"
+				"path": "./build/sb-dark.color-theme.json"
 			},
 			{
-				"label": "Nu Disco Light",
+				"label": "Splendid Light",
 				"uiTheme": "vs",
-				"path": "./build/nu-disco-light.color-theme.json"
+				"path": "./build/sb-light.color-theme.json"
 			}
 		]
 	},
@@ -54,10 +53,5 @@
 	"devDependencies": {
 		"chokidar-cli": "^2.0.0",
 		"style-dictionary": "^2.8.2"
-	},
-	"__metadata": {
-		"id": "aebdc3e6-29b0-44bc-8c00-5a13c7c3164d",
-		"publisherDisplayName": "dbanksdesign",
-		"publisherId": "5602ea9d-f0b9-464f-84d7-7e88fa1be60c"
 	}
 }
