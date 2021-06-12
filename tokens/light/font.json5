@@ -2,9 +2,9 @@
   "color": {
     "font": {
       "primary": { "value": "{color.black.value}" },
-      "secondary": { "value": "{color.white.text}" },
-      "tertiary": { "value": "{color.clay.text}" },
-      "quaternary": { "value": "{color.gray.light.value}" },
+      "secondary": { "value": "{color.navy.dark.value}" },
+      "tertiary": { "value": "{color.navy.value}" },
+      "quaternary": { "value": "{color.white.text}" },
       "ghost": { "value": "{color.sandstone.light.value}" },
       "inverse": { "value": "{color.background.primary.value}" },
       "dull": { "value": "{color.mist.value}" },
