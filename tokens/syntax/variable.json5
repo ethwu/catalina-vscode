@@ -1,22 +1,22 @@
 {
   "syntax": {
     "variable": {
-      "*": { "value": "{color.font.code.4.value}" },
+      "*": { "value": "{color.font.bright.value}" },
       "language": {
         "super": {
-          "value": "{color.font.code.6.value}",
+          "value": "{color.font.code.this}",
           "fontStyle": "italic"
         },
-        "this": { "value": "{color.font.code.6.value}" }
+        "this": { "value": "{color.font.code.this}" }
       },
       "other": {
         "*": { "value": "{color.font.bright.value}" },
         "constant": {
-          "*": { "value": "{color.font.code.4.value}" }
+          "*": { "value": "{color.font.code.constant}" }
         },
         "readwrite": {
           "alias": {
-            "*": { "value": "{color.font.code.4.value}" }
+            "*": { "value": "{color.font.code.variable}" }
           }
         }
       },

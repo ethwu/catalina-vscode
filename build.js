@@ -33,7 +33,7 @@ StyleDictionary.registerFormat({
   formatter: (dictionary, config) => {
     // VSCode theme JSON files have this structure
     const theme = {
-      "name": `Splendid Beach ${config.themeType}`,
+      "name": `Splendid ${config.themeType == 'dark' ? 'Night' : 'Day'}`,
       "type": config.themeType,
       "colors": {},
     }

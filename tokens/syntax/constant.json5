@@ -3,13 +3,13 @@
   "syntax": {
     "constant": {
       "*": {
-        "value": "{color.font.code.21.value}",
+        "value": "{color.font.code.constant}",
         "fontStyle": "italic",
       },
 
       "character": {
         // escape characters like /
-        "escape": { "value": "{color.font.code.24.value}", "fontStyle": "bold" },
+        "escape": { "value": "{color.font.code.literal.value}", "fontStyle": "bold" },
       },
 
       // Constants built into the the language like booleans
@@ -17,21 +17,21 @@
         // Dart does not seem to have great syntax grammar definitions
         "dart": { "value": "{color.font.code.26.value}" },
         "boolean": {
-          "false": { "value": "{color.font.code.29.value}" },
-          "true": { "value": "{color.font.code.29.value}" },
+          "false": { "value": "{color.font.code.literal.value}" },
+          "true": { "value": "{color.font.code.literal.value}" },
         },
         // * import in JS
         "import-export-all": {
           "value": "{color.font.code.27.value}"
         },
-        "null": { "value": "{color.font.code.29.value}" },
-        "symbol": { "value": "{color.font.code.29.value}" }
+        "null": { "value": "{color.font.code.literal.value}" },
+        "symbol": { "value": "{color.font.code.literal.value}" }
       },
       "other": {
         "placeholder": {}
       },
       "numeric": {
-        "*": { "value": "{color.font.code.29.value}" },
+        "*": { "value": "{color.font.code.literal.value}" },
         // These have more specific scopes like integer.binary and integer.decimal
         "integer": {},
         "complex": {},

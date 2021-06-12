@@ -38,12 +38,12 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Splendid Beach Dark",
+				"label": "Splendid Day",
 				"uiTheme": "vs-dark",
 				"path": "./build/sb-dark.color-theme.json"
 			},
 			{
-				"label": "Splendid Beach Light",
+				"label": "Splendid Night",
 				"uiTheme": "vs",
 				"path": "./build/sb-light.color-theme.json"
 			}

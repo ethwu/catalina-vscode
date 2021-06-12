@@ -3,15 +3,18 @@
   "syntax": {
     "comment": {
       // Using * will work like apply to all nested scopes
-      "*": { "value": "{color.font.dull.value}" },
+      "*": { "value": "{color.font.code.comment}" },
       "line": {
-        "value": "{color.font.dull.value}",
+        "value": "{color.font.code.comment}",
         "fontStyle": "italic"
       },
       "block": {
-        "documentation": { "value": "{color.font.dull.value}" }
+        "documentation": { "value": "{color.font.code.comment}" }
       },
-      "single": { "value": "{color.font.dull.value}" }
+      "single": {
+        "value": "{color.font.code.comment}",
+        "fontStyle": "italic",
+      },
     },
   }
 }

@@ -15,7 +15,7 @@
         "value": "{color.font.dull.value}",
       },
       "heading": {
-        "value": "{color.font.code.3.value}",
+        "value": "{color.font.code.accent.value}",
         "fontStyle": "bold"
       },
       "quote": {

@@ -5,22 +5,22 @@
   "syntax": {
     "keyword": {
       // Using '*' here will apply this to the `keyword` scope
-      "*": { "value": "{color.font.code.3.value}" },
+      "*": { "value": "{color.font.code.accent.value}" },
       "control": {
         "*": {
-          "value": "{color.font.code.3.value}",
+          "value": "{color.font.code.accent.value}",
           "fontStyle": "bold",
         },
         "conditional": {},
         "export": {},
         "import": {
-          "value": "{color.font.code.3.value}"
+          "value": "{color.font.code.accent.value}"
         },
         "from": {
-          "value": "{color.font.code.3.value}"
+          "value": "{color.font.code.accent.value}"
         },
         "flow": {
-          "value": "{color.font.code.3.value}"
+          "value": "{color.font.code.accent.value}"
         }
       },
       "operator": {

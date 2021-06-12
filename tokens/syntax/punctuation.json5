@@ -14,14 +14,14 @@
         "dictionary": {
           "value": "{color.font.bright.value}"
         },
-        "heading": { "value": "{color.font.code.22.value}" },
+        "heading": { "value": "{color.font.code.accent.value}" },
         "list": { "value": "{color.font.bright.value}" },
         "parameters": {
           "value": "{color.font.bright.value}"
         },
         "quote": {},
         "string": {
-          "*": { "value": "{color.font.code.27.value}" },
+          "*": { "value": "{color.font.code.literal.string}" },
           "begin": {},
           "end": {}
         },

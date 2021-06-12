@@ -1,57 +1,120 @@
 {
   "color": {
     "font": {
-      "primary": { "value": "{color.core.grey.100.value}" },
-      "secondary": { "value": "{color.core.grey.100.value}BB" },
-      "tertiary": { "value": "{color.core.grey.100.value}99" },
-      "quaternary": { "value": "{color.core.grey.100.value}66" },
-      "ghost": { "value": "{color.core.grey.100.value}22" },
+      "primary": { "value": "{color.black.value}" },
+      "secondary": { "value": "{color.white.text}" },
+      "tertiary": { "value": "{color.clay.text}" },
+      "quaternary": { "value": "{color.gray.light.value}" },
+      "ghost": { "value": "{color.sandstone.light.value}" },
       "inverse": { "value": "{color.background.primary.value}" },
       "dull": { "value": "{color.mist.value}" },
-      "bright": { "value": "{color.sandstone.value}" },
+      "bright": { "value": "{color.navy.value}" },
 
       "badge": { "value": "{color.gold.text}" },
 
-      "active": { "value": "{color.core.pink.darker.value}" },
-      "success": { "value": "{color.core.green.darker.value}" },
-      "danger": { "value": "{color.core.red.darker.value}" },
-      "warning": { "value": "{color.core.orange.darker.value}" },
-      "info": { "value": "{color.core.teal.darker.value}" },
+      "active": { "value": "{color.white.text}" },
+      "success": { "value": "{color.white.text}" },
+      "danger": { "value": "{color.coral.text}" },
+      "warning": { "value": "{color.white.value}" },
+      "info": { "value": "{color.white.text}" },
+
+      "interactive": {
+        "base": { "value": "{color.navy.text}" },
+        "hover": { "value": "{color.navy.text}" },
+      },
 
       "link": {
         "primary": {
-          "active": { "value": "{color.core.teal.darker.value}" },
-          "inactive": { "value": "{color.core.teal.darker.value}CC" },
+          "active": { "value": "{color.uc.blue.uc.value}" },
+          "inactive": { "value": "{color.uc.blue.uc.value}CC" },
         },
         "secondary": {
-          "active": { "value": "{color.core.pink.darker.value}" },
-          "inactive": { "value": "{color.core.pink.darker.value}CC" },
+          "active": { "value": "{color.navy.value}" },
+          "inactive": { "value": "{color.navy.value}CC" },
         }
       },
 
       "code": {
-        "black": { "value": "{color.black.value}" },
-        "white": { "value": "{color.white.value}" },
+        "accent": {
+          "value": "{color.navy.value}",
+          "secondary": "{color.gold.value}",
+        },
 
-        "1": { "value": "{color.core.red.dark.value}" },
-        "2": { "value": "{color.core.orange.dark.value}" },
-        "3": { "value": "{color.core.yellow.dark.value}" },
-        "4": { "value": "{color.core.lime.dark.value}" },
-        "5": { "value": "{color.core.green.dark.value}" },
-        "6": { "value": "{color.core.teal.dark.value}" },
-        "7": { "value": "{color.core.blue.dark.value}" },
-        "8": { "value": "{color.core.purple.dark.value}" },
-        "9": { "value": "{color.core.pink.dark.value}" },
+        "black": {
+          "value": "{color.black.value}",
+          "bright": "{color.white.text}",
+        },
+        "white": {
+          "value": "{color.gray.value}",
+          "bright": "{color.white.value}",
+        },
 
-        "21": { "value": "{color.core.red.darker.value}" },
-        "22": { "value": "{color.core.orange.darker.value}" },
-        "23": { "value": "{color.core.yellow.darker.value}" },
-        "24": { "value": "{color.core.lime.darker.value}" },
-        "25": { "value": "{color.core.green.darker.value}" },
-        "26": { "value": "{color.core.teal.darker.value}" },
-        "27": { "value": "{color.core.blue.darker.value}" },
-        "28": { "value": "{color.core.purple.darker.value}" },
-        "29": { "value": "{color.core.pink.darker.value}" },
+        "blue": {
+          "value": "{color.navy.value}",
+          "bright": "{color.aqua.value}",
+        },
+        "cyan": {
+          "value": "{color.uc.orange.value}",
+          "bright": "{color.uc.orange.light.value}",
+        },
+        "green": {
+          "value": "{color.moss.value}",
+          "bright": "{color.b.soybean.value}",
+        },
+        "magenta": {
+          "value": "{color.uc.pink.value}",
+          "bright": "{color.uc.pink.light.value}",
+        },
+        "red": {
+          "value": "{color.coral.dark.value}",
+          "bright": "{color.coral.value}",
+        },
+        "yellow": {
+          "value": "{color.uc.gold.uc.value}",
+          "bright": "{color.uc.gold.value}",
+        },
+
+        "orange": {
+          "value": "{color.sea-green.value}",
+          "bright": "{color.uc.teal.light.value}",
+        },
+        "purple": {
+          "value": "{color.b.golden-gate.value}",
+          "bright": "{color.b.rose-garden.value}",
+        },
+
+        "comment": "{color.b.soybean.value}",
+        "keyword": "{color.font.code.accent.value}",
+        "literal": {
+          "value": "{color.aqua.value}",
+          "string": "{color.coral.value}",
+          "regex": "{color.uc.pink.value}",
+        },
+        "constant": "{color.aqua.value}",
+        "function": "{color.uc.pink.value}",
+        "type": "{color.navy.value}",
+        "variable": "{color.aqua.value}",
+        "this": "{color.uc.pink.value}",
+
+        "1": { "value": "{color.font.code.red.value}" },
+        "2": { "value": "{color.font.code.orange.value}" },
+        "3": { "value": "{color.navy.value}" },
+        "4": { "value": "{color.font.code.magenta.value}" },
+        "5": { "value": "{color.font.code.green.value}" },
+        "6": { "value": "{color.font.code.blue.value}" },
+        "7": { "value": "{color.font.code.purple.value}" },
+        "8": { "value": "{color.font.code.purple.value}" },
+        "9": { "value": "{color.font.code.orange.value}" },
+
+        "21": { "value": "{color.font.code.red.bright}" },
+        "22": { "value": "{color.font.code.orange.bright}" },
+        "23": { "value": "{color.font.code.blue.bright}" },
+        "24": { "value": "{color.font.code.orange.bright}" },
+        "25": { "value": "{color.font.code.green.bright}" },
+        "26": { "value": "{color.font.code.blue.bright}" },
+        "27": { "value": "{color.font.code.purple.bright}" },
+        "28": { "value": "{color.font.code.purple.bright}" },
+        "29": { "value": "{color.font.code.orange.bright}" },
       }
     }
   }

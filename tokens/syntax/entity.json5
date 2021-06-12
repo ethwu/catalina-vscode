@@ -23,10 +23,13 @@
           "yaml": { "value": "{color.font.code.2.value}" },
         },
         "type": {
-          "module": { "value": "{color.font.code.22.value}" }
+          "*": {
+            "value": "{color.font.code.type}",
+          },
+          "module": {}
         },
         "function": {
-          "*": { "value": "{color.font.code.7.value}" },
+          "*": { "value": "{color.font.code.function}" },
           "constructor": { "fontStyle": "italic" },
           "destructor": { "fontStyle": "italic" }
         }

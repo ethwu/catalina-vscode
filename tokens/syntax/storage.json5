@@ -2,12 +2,12 @@
   "syntax": {
     "storage": {
       "*": {
-        "value": "{color.font.code.3.value}",
+        "value": "{color.font.code.accent.value}",
         "fontStyle": "bold",
       },
       "modifier": {},
       "type": {
-        "function": { "value": "{color.font.code.3.value}" }
+        "function": { "value": "{color.font.code.accent.value}" }
       }
     },
   }
