@@ -31,7 +31,10 @@
         "placeholder": {}
       },
       "numeric": {
-        "*": { "value": "{color.font.code.literal.value}" },
+        "*": {
+          "value": "{color.font.code.literal.value}",
+          "fontStyle": "",
+        },
         // These have more specific scopes like integer.binary and integer.decimal
         "integer": {},
         "complex": {},

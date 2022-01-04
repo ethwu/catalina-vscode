@@ -58,8 +58,8 @@
           "bright": "{color.uc.orange.light.value}",
         },
         "green": {
-          "value": "{color.moss.value}",
-          "bright": "{color.b.soybean.value}",
+          "value": "{color.b.soybean.value}",
+          "bright": "{color.b.ion.value}",
         },
         "magenta": {
           "value": "{color.uc.pink.value}",

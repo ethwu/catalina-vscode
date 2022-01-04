@@ -12,11 +12,11 @@
 
       "badge": { "value": "{color.gold.text}" },
 
-      "active": { "value": "{color.white.text}" },
-      "success": { "value": "{color.white.text}" },
-      "danger": { "value": "{color.coral.text}" },
-      "warning": { "value": "{color.white.value}" },
-      "info": { "value": "{color.white.text}" },
+      "active": { "value": "{color.clay.value}" },
+      "success": { "value": "{color.sea-green.value}" },
+      "danger": { "value": "{color.coral.value}" },
+      "warning": { "value": "{color.gold.value}" },
+      "info": { "value": "{color.uc.blue.uc.value}" },
 
       "interactive": {
         "base": { "value": "{color.gold.text}" },
