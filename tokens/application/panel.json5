@@ -2,7 +2,7 @@
   // The bottom thing with the terminal, debug console, problems, and output
   "panel": {
     "border": { "value": "{color.border.tertiary.value}" },
-    "background": { "value": "{color.background.tertiary.value}" },
+    "background": { "value": "{color.background.quaternary.value}" },
     "dropBackground": { "value": "{color.background.drop.value}" }
   },
   

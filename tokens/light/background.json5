@@ -4,7 +4,7 @@
       "primary": { "value": "{color.white.value}" },
       "secondary": { "value": "{color.clay.light.value}" },
       "tertiary": { "value": "{color.clay.value}" },
-      "quaternary": { "value": "{color.uc.gray.3.value}" },
+      "quaternary": { "value": "{color.white.value}" },
 
       "drop": { "value": "{color.uc.orange.value}66" },
       "badge": { "value": "{color.gold.value}" },

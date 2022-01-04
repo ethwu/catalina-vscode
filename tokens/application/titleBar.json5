@@ -5,7 +5,7 @@
     "border": { "value": "#0000" },
     "activeBackground": { "value": "{color.background.quaternary.value}" },
     "activeForeground": { "value": "{color.font.primary.value}" },
-    "inactiveBackground": { "value": "{color.background.secondary.value}" },
-    "inactiveForeground": { "value": "{color.font.secondary.value}" }
+    "inactiveBackground": { "value": "{color.background.tertiary.value}" },
+    "inactiveForeground": { "value": "{color.font.tertiary.value}" }
   }
 }
