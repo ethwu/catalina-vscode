@@ -1,16 +1,16 @@
 {
-	"name": "sb",
-	"displayName": "Splendid Theme",
+	"name": "catalina",
+	"displayName": "Catalina",
 	"description": "Theme for Unlimited, Coastal, Splendid Beaches.",
 	"publisher": "ethwu",
 	"license": "MIT",
 	"version": "0.0.1",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ethwu/ucsb-vscode-theme"
+		"url": "https://github.com/ethwu/catalina-vscode"
 	},
 	"bugs": {
-		"url": "https://github.com/ethwu/ucsb-vscode-theme/issues"
+		"url": "https://github.com/ethwu/catalina-vscode/issues"
 	},
 	"engines": {
 		"vscode": "^1.38.0"
@@ -18,9 +18,7 @@
 	"scripts": {
 		"build": "node build.js",
 		"watch": "npm run build && chokidar \"tokens/**/*.json5\" -c \"npm run build\"",
-		"start": "npm run watch",
-		"prepublish": "npm run build",
-		"publish": "vsce publish"
+		"start": "npm run watch"
 	},
 	"galleryBanner": {
 		"color": "#003660",
@@ -38,14 +36,14 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Splendid Day",
+				"label": "Catalina Night",
 				"uiTheme": "vs-dark",
-				"path": "./build/sb-dark.color-theme.json"
+				"path": "./build/catalina-dark.color-theme.json"
 			},
 			{
-				"label": "Splendid Night",
+				"label": "Catalina Day",
 				"uiTheme": "vs",
-				"path": "./build/sb-light.color-theme.json"
+				"path": "./build/catalina-light.color-theme.json"
 			}
 		]
 	},

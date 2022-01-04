@@ -33,7 +33,7 @@ StyleDictionary.registerFormat({
   formatter: (dictionary, config) => {
     // VSCode theme JSON files have this structure
     const theme = {
-      "name": `Splendid ${config.themeType == 'dark' ? 'Night' : 'Day'}`,
+      "name": `Catalina ${config.themeType == 'dark' ? 'Night' : 'Day'}`,
       "type": config.themeType,
       "colors": {},
     }
@@ -93,7 +93,7 @@ StyleDictionary.registerFormat({
         files: [{
           // The path the file will be created at. Make sure this matches
           // the file paths defined in the package.json
-          destination: `sb-${themeType}.color-theme.json`,
+          destination: `catalina-${themeType}.color-theme.json`,
           // The name of the custom format defined above
           format: `vsCodeTheme`
         }]
