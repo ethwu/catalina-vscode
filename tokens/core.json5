@@ -124,7 +124,10 @@
       "lap-lane": { "value": "#00A598" },
       "pacific": { "value": "#46535E" },
       "sather-gate": { "value": "#B9D3B6" },
-      "ion": { "value": "#CFDD45" },
+      "ion": { 
+        "value": "#CFDD45",
+        "extrapolated": "#F0FF6B"
+      },
       "soybean": { "value": "#859438" },
       "stone-pine": { "value": "#584F29" },
     },

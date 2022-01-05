@@ -59,7 +59,7 @@
         },
         "green": {
           "value": "{color.b.ion.value}",
-          "bright": "{color.b.sather-gate.value}",
+          "bright": "{color.b.ion.extrapolated}",
         },
         "magenta": {
           "value": "{color.uc.pink.value}",
