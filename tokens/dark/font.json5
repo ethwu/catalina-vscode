@@ -5,9 +5,9 @@
       "secondary": { "value": "{color.gray.value}" },
       "tertiary": { "value": "{color.uc.gray.3.value}" },
       "quaternary": { "value": "{color.uc.gray.8.value}" },
-      "ghost": { "value": "{color.uc.gray.uc.value}" },
+      "ghost": { "value": "{color.b.pacific.value}" },
       "inverse": { "value": "{color.background.primary.value}" },
-      "dull": { "value": "{color.mist.value}" },
+      "dull": { "value": "{color.uc.gray.uc.value}" },
       "bright": { "value": "{color.clay.value}" },
 
       "badge": { "value": "{color.gold.text}" },
@@ -86,7 +86,7 @@
         "comment": "{color.font.dull.value}",
         "keyword": "{color.font.code.accent.value}",
         "literal": {
-          "value": "{color.uc.pink.light.value}",
+          "value": "{color.font.code.blue.value}",
           "string": "{color.font.code.blue.bright}",
           "regex": "{color.uc.orange.light.value}",
         },
@@ -94,7 +94,7 @@
         "function": "{color.b.ion.value}",
         "type": "{color.gold.value}",
         "variable": "{color.aqua.value}",
-        "this": "{color.uc.pink.light.value}",
+        "this": "{color.uc.orange.light.value}",
 
         "1": { "value": "{color.font.code.red.value}" },
         "2": { "value": "{color.font.code.orange.value}" },
@@ -104,7 +104,7 @@
         "6": { "value": "{color.font.code.orange.value}" },
         "7": { "value": "{color.font.code.blue.value}" },
         "8": { "value": "{color.font.code.purple.value}" },
-        "9": { "value": "{color.font.code.magenta.value}" },
+        "9": { "value": "{color.font.code.blue.bright}" },
 
         "21": { "value": "{color.font.code.red.bright}" },
         "22": { "value": "{color.font.code.orange.bright}" },
@@ -114,7 +114,7 @@
         "26": { "value": "{color.font.code.orange.bright}" },
         "27": { "value": "{color.font.code.blue.bright}" },
         "28": { "value": "{color.font.code.purple.bright}" },
-        "29": { "value": "{color.font.code.magenta.bright}" },
+        "29": { "value": "{color.font.code.blue.bright}" },
       }
     }
   }

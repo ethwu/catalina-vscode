@@ -1,55 +1,55 @@
 {
-	"name": "catalina",
-	"displayName": "Catalina",
-	"description": "Theme for Unlimited, Coastal, Splendid Beaches.",
-	"publisher": "ethwu",
-	"license": "MIT",
-	"version": "0.0.1",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ethwu/catalina-vscode"
-	},
-	"bugs": {
-		"url": "https://github.com/ethwu/catalina-vscode/issues"
-	},
-	"engines": {
-		"vscode": "^1.38.0"
-	},
-	"scripts": {
-		"build": "node build.js",
-		"watch": "npm run build && chokidar \"tokens/**/*.json5\" -c \"npm run build\"",
-		"start": "npm run watch"
-	},
-	"galleryBanner": {
-		"color": "#003660",
-		"theme": "dark"
-	},
-	"icon": "images/icon.png",
-	"categories": [
-		"Themes"
-	],
-	"keywords": [
-		"Dark Theme",
-		"Light Theme",
-		"Style Dictionary"
-	],
-	"contributes": {
-		"themes": [
-			{
-				"label": "Catalina Night",
-				"uiTheme": "vs-dark",
-				"path": "./build/catalina-dark.color-theme.json"
-			},
-			{
-				"label": "Catalina Day",
-				"uiTheme": "vs",
-				"path": "./build/catalina-light.color-theme.json"
-			}
-		]
-	},
-	"dependencies": {},
-	"devDependencies": {
-		"chokidar-cli": "^2.0.0",
-		"style-dictionary": "^2.8.2"
-	}
+  "name": "catalina",
+  "displayName": "Catalina",
+  "description": "Theme for Unlimited, Coastal, Splendid Beaches.",
+  "publisher": "ethwu",
+  "license": "MIT",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ethwu/catalina-vscode"
+  },
+  "bugs": {
+    "url": "https://github.com/ethwu/catalina-vscode/issues"
+  },
+  "engines": {
+    "vscode": "^1.38.0"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "watch": "npm run build && chokidar \"tokens/**/*.json5\" -c \"npm run build\"",
+    "start": "npm run watch"
+  },
+  "galleryBanner": {
+    "color": "#003660",
+    "theme": "dark"
+  },
+  "icon": "images/icon.png",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Dark Theme",
+    "Light Theme",
+    "Style Dictionary"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Catalina Night",
+        "uiTheme": "vs-dark",
+        "path": "./build/catalina-dark.color-theme.json"
+      },
+      {
+        "label": "Catalina Day",
+        "uiTheme": "vs",
+        "path": "./build/catalina-light.color-theme.json"
+      }
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chokidar-cli": "^2.0.0",
+    "style-dictionary": "^2.8.2"
+  }
 }
