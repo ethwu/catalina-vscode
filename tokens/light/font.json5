@@ -48,7 +48,7 @@
           "value": "{color.navy.text}"
         },
         "hover": {
-          "value": "{color.navy.text}"
+          "value": "{color.white.value}"
         },
       },
       "link": {
@@ -83,7 +83,7 @@
           "bright": "{color.clay.light.value}",
         },
         "blue": {
-          "value": "{color.b.lawrence.value}",
+          "value": "{color.b.founders-rock.value}",
           "bright": "{color.navy.value}",
         },
         "cyan": {
@@ -103,8 +103,8 @@
           "bright": "{color.coral.value}",
         },
         "yellow": {
-          "value": "{color.uc.gold.uc.value}",
-          "bright": "{color.uc.gold.value}",
+          "value": "{color.b.medalist.value}",
+          "bright": "{color.uc.gold.uc.value}",
         },
         "orange": {
           "value": "{color.sea-green.value}",

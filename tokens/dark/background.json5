@@ -39,12 +39,12 @@
 
       "highlight": {
         "primary": {
-          "active": { "value": "{color.sandstone.value}44" },
-          "inactive": { "value": "{color.sandstone.value}22" },
+          "active": { "value": "{color.gold.value}88" },
+          "inactive": { "value": "{color.gold.value}66" },
         },
         "secondary": {
-          "active": { "value": "{color.mist.value}44" },
-          "inactive": { "value": "{color.mist.value}22" },
+          "active": { "value": "{color.uc.orange.value}88" },
+          "inactive": { "value": "{color.uc.orange.value}66" },
         }
       }
     }

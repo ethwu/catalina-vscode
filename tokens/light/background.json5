@@ -16,35 +16,35 @@
       "info": { "value": "{color.uc.blue.uc.value}" },
 
       "interactive": {
-        "base": { "value": "{color.uc.gold.value}" },
-        "hover": { "value": "{color.uc.gold.uc.value}" },
+        "base": { "value": "{color.uc.gold.uc.value}" },
+        "hover": { "value": "{color.b.medalist.value}" },
       },
 
-      "drop": { "value": "{color.background.selection.secondary.active.value}" },
+      // "drop": { "value": "{color.background.selection.secondary.active.value}" },
 
       "selection": {
         "primary": {
-          "active": { "value": "{color.clay.value}66" },
-          "inactive": { "value": "{color.clay.value}44" },
+          "active": { "value": "{color.b.lawrence.value}44" },
+          "inactive": { "value": "{color.b.lawrence.value}22" },
         },
         "secondary": {
-          "active": { "value": "{color.sandstone.value}66" },
-          "inactive": { "value": "{color.sandstone.value}44" },
+          "active": { "value": "{color.uc.pink.value}44" },
+        "inactive": { "value": "{color.uc.pink.value}22" },
         },
         "tertiary": {
-          "active": { "value": "{color.mist.value}66" },
-          "inactive": { "value": "{color.mist.value}44" },
+          "active": { "value": "{color.sandstone.value}66" },
+          "inactive": { "value": "{color.sandstone.value}44" },
         },
       },
 
       "highlight": {
         "primary": {
-          "active": { "value": "{color.clay.value}66" },
-          "inactive": { "value": "{color.clay.value}44" },
+          "active": { "value": "{color.gold.value}88" },
+          "inactive": { "value": "{color.gold.value}66" },
         },
         "secondary": {
-          "active": { "value": "{color.sandstone.value}66" },
-          "inactive": { "value": "{color.sandstone.value}44" },
+          "active": { "value": "{color.uc.pink.value}88" },
+          "inactive": { "value": "{color.uc.pink.value}66" },
         }
       }
     }

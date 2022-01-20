@@ -2,6 +2,7 @@
   "button": {
     "foreground": { "value": "{color.font.badge.value}" },
     "background": { "value": "{color.background.interactive.base.value}" },
+    "hoverForeground": { "value": "{color.font.interactive.hover.value}" },
     "hoverBackground": { "value": "{color.background.interactive.hover.value}" }
   }
 }
