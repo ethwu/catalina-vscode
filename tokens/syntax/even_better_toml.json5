@@ -1,0 +1,17 @@
+// Syntaxes for the plugin Even Better TOML.
+{
+    "syntax": {
+        "variable.key.table": {
+            "value": "{color.font.code.yellow.value}",
+            "fontStyle": "bold"
+        },
+        "variable.key.array": {
+            "value": "{color.font.code.yellow.value}",
+            "fontStyle": "italic"
+        },
+        "constant.other.time": {
+            "value": "{color.font.code.cyan.value}",
+            "fontStyle": ""
+        }
+    }
+}

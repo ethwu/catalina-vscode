@@ -79,8 +79,8 @@
           "bright": "{color.white.text}",
         },
         "white": {
-          "value": "{color.white.value}",
-          "bright": "{color.clay.light.value}",
+          "value": "{color.clay.light.value}",
+          "bright": "{color.white.value}",
         },
         "blue": {
           "value": "{color.b.founders-rock.value}",
@@ -92,7 +92,7 @@
         },
         "green": {
           "value": "{color.moss.value}",
-          "bright": "{color.sea-green.value}",
+          "bright": "#97A858",
         },
         "magenta": {
           "value": "{color.uc.pink.value}",
